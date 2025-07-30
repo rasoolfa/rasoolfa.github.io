@@ -288,7 +288,7 @@ papers:
       - name: PDF
         href: https://openreview.net/pdf?id=QTjJMy-UNO
     #description: Adaptive interest mechanisms for emphatic reinforcement learning.
-    highlighted: false
+    highlighted: true
 
   - name: faster_deep_rl
     title:
