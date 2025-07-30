@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JYHCCRH2NK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JYHCCRH2NK');
+  </script>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="generator" content="HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css?v=1">
+  <title>Rasool Fakoor. Personal Webpage</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+
+  <!-- Gif toggles -->
+  <script>
+    function gif_start(image, gif) {
+      document.getElementById(image).style.opacity = "1";
+      document.getElementById(gif).style.opacity = "0";
+    }
+    function gif_stop(image, gif) {
+      document.getElementById(image).style.opacity = "0";
+      document.getElementById(gif).style.opacity = "1";
+    }
+  </script>
+
+  <!-- Selected publications toggle -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type=" text/javascript">
+    function pubs_off_start() {
+      $('.hiddenPubs').hide();
+      var e = document.getElementById('sel_pub_button');
+      e.classList.add("toggled");
+      var e = document.getElementById('all_pub_button');
+      e.classList.remove("toggled");
+    }
+    function pubs_off() {
+      $('.hiddenPubs').slideUp();
+      var e = document.getElementById('sel_pub_button');
+      e.classList.add("toggled");
+      var e = document.getElementById('all_pub_button');
+      e.classList.remove("toggled");
+    }
+    function pubs_on() {
+      $('.hiddenPubs').slideDown();
+      var e = document.getElementById('all_pub_button');
+      e.classList.add("toggled");
+      var e = document.getElementById('sel_pub_button');
+      e.classList.remove("toggled");
+    };
+  </script>
+
+  <!-- Dynamic generation -->
+  <script src="https://unpkg.com/mustache@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script type="text/javascript" src="data/js-yaml.min.js"></script>
+  <script type="text/javascript">
+    function renderHello() {
+      var template = document.getElementById('template').innerHTML;
+      $.get("./papers.yaml").done(function (data) {
+        try {
+          papers = jsyaml.load(data)
+          // Add timestamp for cache busting
+          papers.timestamp = Date.now();
+          var rendered = Handlebars.compile(template)(papers);
+          document.getElementById('mustache_target').innerHTML = rendered;
+          pubs_off_start()
+          console.log("loading papers.yaml done!")
+        }
+        catch (err) {
+          console.log(err);
+        }
+      });
+    }
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <!-- Dark mode -->
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+  <script>
+    var options = {
+      autoMatchOsTheme: false // default: true
+    }
+
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+  </script>
+  <a name="top"></a>
+  <!-- body -->
+  <div style="max-width:1100; width:100%; margin:0 auto">
+    <!-- Intro & photo -->
+    <div class="table-like" style="width:100%; text-align:left;">
+      <div style="flex: 1 0 300px;margin-right:50px">
+        <p align="center">
+          <name>Rasool Fakoor</name>
+        </p>
+        My goal is to build AI agents that operate reliably across diverse settings, adapt to changing environments, follow instructions, reason, plan, and continually learn with minimal or no feedback. This goal builds on my work in efficient learning, generative models, and embodied agents.        </p>
+        <p align="center">
+          <a href="#" onclick="var p1='rasool'; var p2='fakoor'; var p3='gmail'; var p4='com'; window.location.href='mailto:'+p1+p2+'@'+p3+'.'+p4; return false;" style="margin: 0 5px; font-size: 24px; color: #EA4335;"><i class="fa fa-envelope"></i></a>
+          <a href="https://scholar.google.com/citations?user=nVsOPtQAAAAJ&hl=en" target="_blank" style="margin: 0 5px; font-size: 24px; color: #4285F4;"><i class="fa fa-graduation-cap"></i></a>
+          <a href="https://x.com/rasoolfa" target="_blank" style="margin: 0 5px; font-size: 24px; color: #1DA1F2;"><i class="fa fa-twitter"></i></a>
+          <a href="https://github.com/rasoolfa" target="_blank" style="margin: 0 5px; font-size: 24px; color: #333;"><i class="fa fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/rasool-fakoor-695b5845/" target="_blank" style="margin: 0 5px; font-size: 24px; color: #0077B5;"><i class="fa fa-linkedin"></i></a>
+          <!-- The Modal -->
+        </p>
+      </div>
+
+      <div class="image-cropper">
+        <img src="images/profile.png?v=1" style="width:100%">
+      </div>
+    </div>
+    <!-- News -->
+    <div style="width:100%; text-align:left;">
+      <heading style="color: #480d45;">News</heading>
+    </div>
+
+    <div style="width:100%; text-align:left;margin-top:10; ">
+      <ul style="margin: 0; padding-left: 20px; list-style: disc; display: block;">
+        <li style="display: list-item;">Our paper on LLM-based web agents has been accepted to <span style="font-weight: bold;">ICLR 2025</span>.</li>
+        <li style="display: list-item;">Our work on enhancing alignment in large models has been accepted to <span style="font-weight: bold;">TMLR 2025</span>.</li>
+        <li style="display: list-item;">Our paper on learning skills from offline robot data has been accepted to <span style="font-weight: bold;">CoRL 2024</span>.</li>
+        <li style="display: list-item;">Thrilled to announce the release of AWS's RLHF model, <a href="https://aws.amazon.com/bedrock/titan/" target="_blank">Titan</a>, and proud to be a core contributor to this ambitious project!</li>
+        <li style="display: list-item;">Our work on a principled approach to handling target networks in RL has been accepted to <span style="font-weight: bold;">ICML 2024</span>.</li>
+        <li style="display: list-item;">Excited to announce the release of the Reinforcement Learning chapters in the <a href="https://d2l.ai/" target="_blank">Dive into Deep Learning (<span style="font-weight: bold;">D2L</span>)</a> book!</li>
+        <li style="display: list-item;">Our paper introducing a new method to handle distribution shift in ever-changing environments has been accepted to <span style="font-weight: bold;">ICLR 2024</span>.</li>
+        <li style="display: list-item;">Our paper on efficient fine-tuning for task-specific imitation learning accepted to <span style="font-weight: bold;">ICLR 2024</span>.</li>
+      </ul>
+    </div>
+    <a name="re"></a>
+    <div style="width:100%; text-align:left; margin-top:20; ">
+      <heading style="color: #480d45;">Publications</heading>
+      <a style="font-size: 17px; color: black;">(</a><a style="font-size:17px" id='sel_pub_button'
+        href="javascript:pubs_off()">Highlighted</a> <a style="font-size: 17px; color: black;">/</a>
+      <a style="font-size:17px" id='all_pub_button' href="javascript:pubs_on()">All</a><a
+        style="font-size: 17px; color: black;">)</a>
+      <br>
+    </div>
+
+    <div id="mustache_target">Loading...</div>
+    <script id="template" type="text/x-handlebars-template">
+      {{#papers}}
+      <div style="width:100%;margin-left:0px;margin-right:0px;margin-top:10px; flex-wrap:wrap-reverse; " class="table-like {{#unless highlighted}}hiddenPubs{{/unless}}" onmouseout="gif_stop('{{name}}_image', '{{name}}_gif')" onmouseover="gif_start('{{name}}_image', '{{name}}_gif')">
+        <div class="zero" style="flex: 1 0 270px;margin-top:0px;margin-right:20px;max-width:270px;">
+          <div class="one">
+            <img id='{{name}}_gif' src='images/{{name}}_before.png?v={{timestamp}}' class="paper_img">
+          </div>
+        </div>
+        <div style="flex: 10000 1 400px;margin-bottom:10px;" valign="top">
+          <p class="paper_title" style="margin-top:0em;"><papertitle>{{title.name}}</papertitle>
+          <br>
+          {{#authors}}
+          {{#if me}}
+            <strong><u>Rasool Fakoor</u></strong>{{#if star}}*{{/if}}{{#unless @last}}, {{/unless}}
+          {{else}}
+            {{name}}{{#if star}}*{{/if}}{{#if star2}}<sup>&#9224;</sup>{{/if}}{{#unless @last}}, {{/unless}}
+          {{/if}}
+          {{/authors}}
+          <br>
+          <font style="color: #c60101df;"><i>{{{conference.name}}}</i></font>
+          <br>
+          {{#links}}
+          {{#if href}}
+            <a href={{href}} target="_blank">{{name}}</a>{{#unless @last}} | {{/unless}}
+          {{else}}
+            <a class="black_link" target="_blank">{{name}}</a>{{#unless @last}} | {{/unless}}
+          {{/if}}
+          {{/links}}
+          </p>
+          <p style="margin-bottom:0em;">{{description}}</p>
+        </div>
+      </div>
+      {{/papers}}
+    </script>
+    <script type="text/javascript">
+      renderHello()
+    </script>
+
+    <!-- Book -->
+    <br>
+    <div style="width:100%; text-align:left;">
+      <heading style="color: #480d45;">Book Chapters</heading>
+    </div>
+
+    <div style="width:100%;margin-left:0px;margin-right:0px;margin-top:10px; flex-wrap:wrap-reverse; " class="table-like">
+      <div class="zero" style="flex: 1 0 270px;margin-top:0px;margin-right:20px;max-width:270px;">
+        <div class="one">
+          <img src='images/d2l_before.png?v={{timestamp}}' class="paper_img">
+        </div>
+      </div>
+      <div style="flex: 10000 1 400px;margin-bottom:10px;" valign="top">
+        <p class="paper_title" style="margin-top:0em;">
+          <papertitle>Dive into Deep Learning</papertitle>
+          <br>
+          Zhang, et. al.
+          <br>
+          <a href="https://d2l.ai" target="_blank">Website</a>
+        </p>
+        <p style="margin-bottom:0em;">I co-authored all content on RL in Volume II.</p>
+      </div>
+    </div>
+   
+    <br>
+    <hr>
+    <div style="margin:auto">
+      <center>
+        This website's template is largely adapted from <a
+        href="https://www.jessezhang.net" target="_blank">this</strong></a>.
+      </center>
+    </div>
+  </div>
+</body>
+
+</html>

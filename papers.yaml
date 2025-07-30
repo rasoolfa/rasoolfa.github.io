@@ -1,0 +1,681 @@
+papers:
+  - name: offline_learning
+    title:
+      name: >-
+        Offline Learning and Forgetting for Reasoning with Large Language Models
+      link: https://arxiv.org/abs/2504.11364
+    authors:
+      - name: Tianwei Ni
+      - name: Allen Nie
+      - name: Sapana Chaudhary
+      - name: Yao Liu
+      - name: Huzefa Rangwala
+      - me: true
+    conference:
+      name: Preprint, 2025
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2504.11364
+      - name: Code
+        href: https://github.com/twni2016/llm-reasoning-uft
+    #description: A preprint on offline learning and forgetting techniques for reasoning with large language models.
+    highlighted: False
+  - name: bridging_gap
+    title:
+      name: >-
+        Bridging the Training-Inference Gap in LLMs by Leveraging Self-Generated Tokens
+      link: https://arxiv.org/abs/2410.14655
+    authors:
+      - name: Zhepeng Cen
+      - name: Yao Liu
+      - name: Siliang Zeng
+      - name: Pratik Chaudhari
+      - name: Huzefa Rangwala
+      - name: George Karypis
+      - me: true
+    conference:
+      name: TMLR 2025
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2410.14655
+    #description: Work on bridging the training-inference gap in large language models using self-generated tokens.
+    highlighted: true
+    nogif: false
+
+  - name: agentoccam
+    title:
+      name: >-
+        AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents
+      link: https://arxiv.org/abs/2410.13825
+    authors:
+      - name: Ke Yang
+      - name: Yao Liu
+      - name: Sapana Chaudhary
+      - me: true
+      - name: Pratik Chaudhari
+      - name: George Karypis
+      - name: Huzefa Rangwala
+    conference:
+      name: ICLR 2025
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2410.13825
+      - name: Code
+        href: https://github.com/amazon-science/AgentOccam.git
+    #description: A simple yet effective baseline for LLM-based web agents.
+    highlighted: true
+    nogif: false
+
+  - name: demonstrations_rewards
+    title:
+      name: >-
+        From Demonstrations to Rewards: Alignment Without Explicit Human Preferences
+      link: https://arxiv.org/abs/2503.13538
+    authors:
+      - name: Siliang Zeng
+      - name: Yao Liu
+      - name: Huzefa Rangwala
+      - name: George Karypis
+      - name: Mingyi Hong
+      - me: true
+    conference:
+      name: Preprint 2025
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2503.13538
+    #description: A method for alignment without explicit human preferences using demonstrations.
+    highlighted: false
+
+  - name: extract
+    title:
+      name: >-
+        EXTRACT: Efficient Policy Learning by Extracting Transferrable Robot Skills from Offline Data
+      link: https://arxiv.org/abs/2406.17768
+    authors:
+      - name: Jesse Zhang
+      - name: Minho Heo
+      - name: Zuxin Liu
+      - name: Erdem Biyik
+      - name: Joseph J Lim
+      - name: Yao Liu
+      - me: true
+    conference:
+      name: CoRL 2024
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2406.17768
+      - name: Website
+        href: https://www.jessezhang.net/projects/extract/
+    #description: Efficient policy learning by extracting transferrable robot skills from offline data.
+    highlighted: true
+    nogif: false
+
+  - name: time_varying
+    title:
+      name: >-
+        Time-Varying Propensity Score to Bridge the Gap between the Past and Present
+      link: https://arxiv.org/abs/2210.01422
+    authors:
+      - me: true
+      - name: Jonas Mueller
+      - name: Zachary C. Lipton
+      - name: Pratik Chaudhari
+      - name: Alexander J. Smola
+    conference:
+      name: ICLR 2024
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2210.01422
+    #description: Time-varying propensity score methods to bridge temporal gaps in data.
+    highlighted: true
+    nogif: false
+
+  - name: tail
+    title:
+      name: >-
+        TAIL: Task-specific Adapters for Imitation Learning with Large Pretrained Models
+      link: https://arxiv.org/abs/2310.05905
+    authors:
+      - name: Zuxin Liu
+      - name: Jesse Zhang
+      - name: Kavosh Asadi
+      - name: Yao Liu
+      - name: Ding Zhao
+      - name: Shoham Sabach
+      - me: true
+    conference:
+      name: ICLR 2024
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2310.05905
+    #description: Task-specific adapters for imitation learning with large pretrained models.
+    highlighted: true
+    nogif: false
+
+
+
+  - name: alpharouter
+    title:
+      name: >-
+        AlphaRouter: Quantum Circuit Routing with Reinforcement Learning and Tree Search
+      link: https://arxiv.org/abs/2410.05115
+    authors:
+      - name: Wei Tang
+      - name: Yiheng Duan
+      - name: Yaroslav Kharkov
+      - me: true
+      - name: Eric Kessler
+      - name: Yunong Shi
+    conference:
+      name: IEEE QCE 2024
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2410.05115
+    #description: Quantum circuit routing using reinforcement learning and tree search.
+    highlighted: false
+
+  - name: budgeting_counterfactual
+    title:
+      name: >-
+        Budgeting Counterfactual for Offline RL
+      link: https://arxiv.org/abs/2307.06328
+    authors:
+      - name: Yao Liu
+      - name: Pratik Chaudhari
+      - me: true
+    conference:
+      name: NeurIPS 2023
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2307.06328
+    #description: Budgeting counterfactual methods for offline reinforcement learning.
+    highlighted: true
+    nogif: false
+
+  - name: flexible_aggregation
+    title:
+      name: >-
+        Flexible Model Aggregation for Quantile Regression
+      link: https://arxiv.org/abs/2103.00083
+    authors:
+      - me: true
+      - name: Taesup Kim
+      - name: Jonas Mueller
+      - name: Alexander J. Smola
+      - name: Ryan J. Tibshirani
+    conference:
+      name: JMLR, 2023
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2103.00083
+      - name: Code
+        href: https://github.com/amazon-science/quantile-aggregation
+    #description: Flexible model aggregation techniques for quantile regression.
+    highlighted: false
+
+  - name: resetting_optimizer
+    title:
+      name: >-
+        Resetting the Optimizer in Deep RL: An Empirical Study
+      link: https://arxiv.org/abs/2306.17833
+    authors:
+      - name: Kavosh Asadi
+      - me: true
+      - name: Shoham Sabach
+    conference:
+      name: NeurIPS 2023
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2306.17833 
+    #description: An empirical study on resetting optimizers in deep reinforcement learning.
+    highlighted: false
+
+  - name: task_agnostic_continual
+    title:
+      name: >-
+        Task-Agnostic Continual Reinforcement Learning: Gaining Insights and Overcoming Challenges 
+      link: https://arxiv.org/abs/2205.14495
+    authors:
+      - name: Massimo Caccia
+      - name: Jonas Mueller
+      - name: Taesup Kim
+      - name: Laurent Charlin
+      - me: true
+    conference:
+      name: CoLLAs 2023
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2205.14495
+      - name: Code
+        href: https://github.com/amazon-research/replay-based-recurrent-rl
+    #description: Task-agnostic continual reinforcement learning with insights and challenges.
+    highlighted: false
+
+  - name: td_convergence
+    title:
+      name: >-
+        TD Convergence: An Optimization Perspective
+      link: https://arxiv.org/abs/2306.17750
+    authors:
+      - name: Kavosh Asadi
+      - name: Shoham Sabach
+      - name: Yao Liu
+      - name: Omer Gottesman
+      - me: true
+    conference:
+      name: NeurIPS 2023
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2306.17750
+    #description: Temporal difference convergence from an optimization perspective.
+    highlighted: false
+
+  - name: adaptive_interest
+    title:
+      name: >-
+        Adaptive Interest for Emphatic Reinforcement Learning
+      link: https://openreview.net/pdf?id=QTjJMy-UNO
+    authors:
+      - name: Martin Klissarov
+      - me: true
+      - name: Jonas Mueller
+      - name: Kavosh Asadi
+      - name: Taesup Kim
+      - name: Alexander J. Smola
+    conference:
+      name: NeurIPS 2022
+    links:
+      - name: PDF
+        href: https://openreview.net/pdf?id=QTjJMy-UNO
+    #description: Adaptive interest mechanisms for emphatic reinforcement learning.
+    highlighted: false
+
+  - name: faster_deep_rl
+    title:
+      name: >-
+        Faster Deep Reinforcement Learning with Slower Online Network
+      link: https://openreview.net/pdf?id=Cl9dcH6Xkcj
+    authors:
+      - name: Kavosh Asadi
+      - me: true
+      - name: Omer Gottesman
+      - name: Taesup Kim
+      - name: Michael L Littman
+      - name: Alexander J Smola
+    conference:
+      name: NeurIPS 2022
+    links:
+      - name: PDF
+        href: https://openreview.net/pdf?id=Cl9dcH6Xkcj
+      - name: Code
+        href: https://github.com/amazon-science/fast-rl-with-slow-updates
+      - name: Blog
+        href: https://www.amazon.science/blog/in-reinforcement-learning-slower-networks-can-learn-faster
+    #description: Faster deep reinforcement learning using slower online networks.
+    highlighted: false
+
+  - name: continuous_doubly_constrained
+    title:
+      name: >-
+        Continuous Doubly Constrained Batch Reinforcement Learning
+      link: https://arxiv.org/abs/2102.09225
+    authors:
+      - me: true
+      - name: Jonas Mueller
+      - name: Kavosh Asadi
+      - name: Pratik Chaudhari
+      - name: Alexander J. Smola
+    conference:
+      name: NeurIPS 2021
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2102.09225
+      - name: Code
+        href: https://github.com/amazon-research/cdc-batch-rl
+    #description: Continuous doubly constrained batch reinforcement learning methods.
+    highlighted: true
+    nogif: false
+
+  - name: robust_rl
+    title:
+      name: >-
+        Robust Reinforcement Learning for Shifting Dynamics During Deployment
+      link: https://assets.amazon.science/33/d8/db4f53b44e2c8efc98fc6d919c67/robust-reinforcement-learning-for-shifting-dynamics-during-deployment.pdf
+    authors:
+      - name: Samuel Stanton
+      - me: true
+      - name: Jonas Mueller
+      - name: Andrew Gordon Wilson
+      - name: Alexander J. Smola
+    conference:
+      name: SRC Workshop, NeurIPS 2021
+    links:
+      - name: PDF
+        href: https://assets.amazon.science/33/d8/db4f53b44e2c8efc98fc6d919c67/robust-reinforcement-learning-for-shifting-dynamics-during-deployment.pdf
+    #description: Robust reinforcement learning for handling shifting dynamics during deployment.
+    highlighted: false
+
+  - name: meta_q_learning
+    title:
+      name: >-
+        Meta-Q-Learning
+      link: https://arxiv.org/abs/1910.00125
+    authors:
+      - me: true
+      - name: Pratik Chaudhari
+      - name: Stefano Soatto
+      - name: Alexander J. Smola
+    conference:
+      name: ICLR 2020 (Long oral talk, 2% acceptance rate)
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1910.00125
+      - name: Blog post
+        href: https://www.amazon.science/blog/how-robots-can-adapt-to-new-tasks-quickly
+      - name: Code
+        href: https://github.com/amazon-research/meta-q-learning
+    #description: Meta-Q-Learning approach for reinforcement learning.
+    highlighted: true
+    nogif: false
+
+  - name: fast_accurate_simple
+    title:
+      name: >-
+        Fast, Accurate, and Simple Models for Tabular Data via Augmented Distillation
+      link: https://arxiv.org/abs/2006.14284
+    authors:
+      - me: true
+        star: true
+      - name: Jonas Mueller
+        star: true
+      - name: Nick Erickson
+      - name: Pratik Chaudhari
+      - name: Alexander J. Smola
+    conference:
+      name: NeurIPS 2020
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2006.14284
+      - name: Code
+        href: https://github.com/awslabs/autogluon
+    #description: Fast, accurate, and simple models for tabular data using augmented distillation.
+    highlighted: true
+    nogif: false
+
+  - name: trade
+    title:
+      name: >-
+        TraDE: Transformers for Density Estimation
+      link: https://arxiv.org/abs/2004.02441
+    authors:
+      - me: true
+      - name: Pratik Chaudhari
+      - name: Jonas Mueller
+      - name: Alexander J. Smola
+    conference:
+      name: INNF+ Workshop, ICML 2020
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2004.02441
+    #description: Transformers for density estimation.
+    highlighted: false
+
+  - name: ddpg_plus
+    title:
+      name: >-
+        DDPG++: Striving for Simplicity in Continuous-control Off-Policy Reinforcement Learning
+      link: https://arxiv.org/abs/2006.15199
+    authors:
+      - me: true
+      - name: Pratik Chaudhari
+      - name: Alexander J. Smola
+    conference:
+      name: Preprint 2020
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2006.15199
+    #description: DDPG++: Simplified continuous-control off-policy reinforcement learning.
+    highlighted: false
+
+  - name: p3o
+    title:
+      name: >-
+        P3O: Policy-on Policy-off Policy Optimization
+      link: https://arxiv.org/abs/1905.01756
+    authors:
+      - me: true
+      - name: Pratik Chaudhari
+      - name: Alexander J. Smola
+    conference:
+      name: UAI 2019, also achieved 2nd place in the sample-efficiency track of the ProcGen competition at NeurIPS 2020.
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1905.01756
+      - name: Code
+        href: https://github.com/rasoolfa/P3O
+    #description: P3O: Policy-on Policy-off Policy Optimization. Also, second place in sample-efficiency track of ProcGen competition at NeurIPS 2020.
+    highlighted: true
+    nogif: false
+
+  - name: constrained_convolutional
+    title:
+      name: >-
+        Constrained Convolutional-Recurrent Networks to Improve Speech Quality with Low Impact on Recognition Accuracy 
+      link: https://arxiv.org/abs/1802.05874
+    authors:
+      - me: true
+      - name: Xiaodong He
+      - name: Ivan Tashev
+      - name: Shuayb Zarar
+    conference:
+      name: ICASSP 2018
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1802.05874
+    #description: Constrained convolutional-recurrent networks for speech quality improvement.
+    highlighted: false
+
+  - name: direct_optimization
+    title:
+      name: >-
+        Direct Optimization of F-measure for Retrieval-based Personal Question Answering
+      link: https://arxiv.org/abs/1810.00679
+    authors:
+      - me: true
+      - name: Amanjit Kainth
+      - name: Siamak Shakeri
+      - name: Christopher Winestock
+      - name: Abdel-rahman Mohamed
+      - name: Ruhi Sarikaya
+    conference:
+      name: SLT 2018
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1810.00679
+      - name: Blog
+        href: https://www.amazon.science/blog/how-alexa-may-learn-to-retrieve-stored-memories
+    #description: Direct optimization of F-measure for retrieval-based personal question answering.
+    highlighted: false
+
+  - name: differentiable_greedy
+    title:
+      name: >-
+        Differentiable Greedy Networks
+      link: https://arxiv.org/abs/1810.12464
+    authors:
+      - name: Thomas Powers
+      - me: true
+      - name: Siamak Shakeri
+      - name: Abhinav Sethy
+      - name: Amanjit Kainth
+      - name: Abdel-rahman Mohamed
+      - name: Ruhi Sarikaya
+    conference:
+      name: ArXiv 2018
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1810.12464
+    #description: Differentiable greedy networks for optimization.
+    highlighted: false
+
+  - name: rl_speech_enhancement
+    title:
+      name: >-
+        Reinforcement Learning To Adapt Speech Enhancement to Instantaneous Input Signal Quality
+      link: https://arxiv.org/abs/1711.10791
+    authors:
+      - me: true
+      - name: Xiaodong He
+      - name: Ivan Tashev
+      - name: Shuayb Zarar
+    conference:
+      name: MLASP Workshop, NIPS 2017 
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1711.10791
+    #description: Reinforcement learning for adaptive speech enhancement based on input signal quality.
+    highlighted: false
+
+  - name: memory_augmented_attention
+    title:
+      name: >-
+        Memory-augmented Attention Modelling for Videos
+      link: https://arxiv.org/abs/1611.02261
+    authors:
+      - me: true
+      - name: Abdel-rahman Mohamed
+      - name: Margaret Mitchell
+      - name: Sing Bing Kang
+      - name: Pushmeet Kohli
+    conference:
+      name: ArXiv 2016
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/1611.02261
+      - name: Code
+        href: https://github.com/rasoolfa/videocap
+    #description: Memory-augmented attention modeling for video understanding.
+    highlighted: false
+    nogif: false
+
+  - name: deep_transferable_zero_shot
+    title:
+      name: >-
+        Deep Transferable Zero-shot Learning with Layer-specific Regularizers and Embeddings
+      link: https://drive.google.com/file/d/0B2pjOnrFH2XULTVZR21uWXRqeWs/view?usp=sharing&resourcekey=0-quu2h3gNpMHNSPeixZkuow
+    authors:
+      - me: true
+      - name: Mohit Bansal
+      - name: Matthew R. Walter
+    conference:
+      name: Technical Report, December 2015
+    links:
+      - name: PDF
+        href: https://drive.google.com/file/d/0B2pjOnrFH2XULTVZR21uWXRqeWs/view?usp=sharing&resourcekey=0-quu2h3gNpMHNSPeixZkuow
+    #description: Deep transferable zero-shot learning with layer-specific regularizers and embeddings.
+    highlighted: false
+
+  - name: deep_attribute_zero_shot
+    title:
+      name: >-
+        Deep Attribute-based Zero-shot Learning with Layer-specific Regularizers
+      link: https://drive.google.com/file/d/0B2pjOnrFH2XUenozckhmZG9FU00/view?usp=sharing&resourcekey=0-6Xdy_rRNg27lhQelMdMaQA
+    authors:
+      - me: true
+      - name: Mohit Bansal
+      - name: Matthew R. Walter
+    conference:
+      #name: NIPS 2015, Transfer and Multi-Task Learning Workshop, December 2015
+      name: TMLR Workshop, NIPS 2015 
+
+    links:
+      - name: PDF
+        href: https://drive.google.com/file/d/0B2pjOnrFH2XUenozckhmZG9FU00/view?usp=sharing&resourcekey=0-6Xdy_rRNg27lhQelMdMaQA
+    #description: Deep attribute-based zero-shot learning with layer-specific regularizers.
+    highlighted: false
+
+  - name: deep_learning_cancer
+    title:
+      name: >-
+        Using Deep Learning to Enhance Cancer Diagnosis and Classification
+      link: https://drive.google.com/file/d/0B2pjOnrFH2XUQWhKWVRGdkhGVVk/view?usp=sharing&resourcekey=0-EX9440s8Xi5zR4F0_ag2Zg
+    authors:
+      - me: true
+      - name: Faisal Lahdak
+      - name: Azade Nova
+      - name: Manfred Huber
+    conference:
+      name: WHEALTH workshop, ICML 2013 
+    links:
+      - name: PDF
+        href: https://drive.google.com/file/d/0B2pjOnrFH2XUQWhKWVRGdkhGVVk/view?usp=sharing&resourcekey=0-EX9440s8Xi5zR4F0_ag2Zg
+      - name: Data
+        href: https://drive.google.com/drive/folders/0B2pjOnrFH2XUeUVqUFRHcm84UnM?resourcekey=0--a81su5rROMA3xGk5EaZ_A&usp=sharing
+    #description: Using deep learning techniques to enhance cancer diagnosis and classification.
+    highlighted: false
+
+  - name: sampling_pomdp
+    title:
+      name: >-
+        A Sampling-Based Approach to Reducing the Complexity of Continuous State Space POMDPs by Decomposition into Coupled Perceptual and Decision Processes
+      link: https://drive.google.com/file/d/0B2pjOnrFH2XUcktzN3pKMlNIRXM/view?usp=sharing&resourcekey=0-7RsedbRqwXUATTjSTVblbw
+    authors:
+      - me: true
+      - name: Manfred Huber
+    conference:
+      name: ICMLA 2012
+    links:
+      - name: PDF
+        href: https://drive.google.com/file/d/0B2pjOnrFH2XUcktzN3pKMlNIRXM/view?usp=sharing&resourcekey=0-7RsedbRqwXUATTjSTVblbw
+    #description: Sampling-based approach to reduce complexity of continuous state space POMDPs.
+    highlighted: false
+
+  - name: improving_pomdp
+    title:
+      name: >-
+        Improving Tractability of POMDPs by Separation of Decision and Perceptual Processes
+      link: https://drive.google.com/file/d/0B2pjOnrFH2XUZVU4QzF6b1dxMjQ/view?usp=sharing&resourcekey=0-We1nXcsvx-tnePIHvDuoQw
+    authors:
+      - me: true
+      - name: Manfred Huber
+    conference:
+      name: SMC 2012
+    links:
+      - name: PDF
+        href: https://drive.google.com/file/d/0B2pjOnrFH2XUZVU4QzF6b1dxMjQ/view?usp=sharing&resourcekey=0-We1nXcsvx-tnePIHvDuoQw
+    #description: Improving tractability of POMDPs by separating decision and perceptual processes.
+    highlighted: false
+
+  - name: cloud_mobile_sensing
+    title:
+      name: >-
+        An Integrated Cloud-based Framework for Mobile Phone Sensing
+      link: https://drive.google.com/file/d/0B2pjOnrFH2XUOWNOTFZBd28ybms/view?usp=sharing&resourcekey=0-2I-bZaYiuRZHQn22kBCGSw
+    authors:
+      - me: true
+      - name: Mayank Raj
+      - name: Azade Nova
+      - name: Mario Di Francesco
+      - name: S. K. Das
+    conference:
+      name: MCC Workshop, SIGCOMM 2012 
+    links:
+      - name: PDF
+        href: https://drive.google.com/file/d/0B2pjOnrFH2XUOWNOTFZBd28ybms/view?usp=sharing&resourcekey=0-2I-bZaYiuRZHQn22kBCGSw
+    #description: An integrated cloud-based framework for mobile phone sensing applications.
+    highlighted: false
+
+  #- name: master_thesis
+  #  title:
+  #    name: >-
+  #      Reducing the complexity of reinforcement learning in POMDPs by decomposition into decision and perceptual processes
+  #    link: https://drive.google.com/file/d/0B2pjOnrFH2XURGVTeW5udXpJX1E/view?usp=sharing&resourcekey=0-Dva9l8pBzT7bc8QeFFyOdw
+  #  authors:
+  #    - me: true
+  #  conference:
+  #    name: Master Thesis, December 2012
+  #  links:
+  #    - name: PDF
+  #      href: https://drive.google.com/file/d/0B2pjOnrFH2XURGVTeW5udXpJX1E/view?usp=sharing&resourcekey=0-Dva9l8pBzT7bc8QeFFyOdw
+  #  #description: Master thesis on reducing complexity of reinforcement learning in POMDPs.
+  #  highlighted: false 
