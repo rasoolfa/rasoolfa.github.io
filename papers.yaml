@@ -211,7 +211,7 @@ papers:
       - name: Code
         href: https://github.com/amazon-science/quantile-aggregation
     #description: Flexible model aggregation techniques for quantile regression.
-    highlighted: false
+    highlighted: true
 
   - name: resetting_optimizer
     title:
