@@ -1,0 +1,6 @@
+# Redirect /publication to homepage
+Redirect 301 /publication https://rasoolfa.github.io/
+
+# Alternative method using mod_rewrite
+RewriteEngine On
+RewriteRule ^publication/?$ https://rasoolfa.github.io/ [R=301,L] 
