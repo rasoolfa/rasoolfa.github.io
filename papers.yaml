@@ -1,4 +1,23 @@
 papers:
+  - name: trust_the_batch
+    title:
+      name: >-
+        Trust the Batch, On- or Off-Policy: Adaptive Policy Optimization for RL Post-Training
+      link: https://arxiv.org/abs/2605.12380
+    authors:
+      - me: true
+      - name: Murdock Aubry
+      - name: Nicholas Stranges
+      - name: Alexander J. Smola
+    conference:
+      name: Preprint 2026
+    links:
+      - name: PDF
+        href: https://arxiv.org/abs/2605.12380
+    #description: use offline and online to do rl post-training
+    highlighted: true
+    nogif: false
+
   - name: offline_learning
     title:
       name: >-
