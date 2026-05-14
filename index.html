@@ -63,7 +63,7 @@
   <script type="text/javascript">
     function renderHello() {
       var template = document.getElementById('template').innerHTML;
-      $.get("./papers.yaml").done(function (data) {
+      $.get("./papers.yaml?v=" + Date.now()).done(function (data) {
         try {
           papers = jsyaml.load(data)
           // Add timestamp for cache busting
